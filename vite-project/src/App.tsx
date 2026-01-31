@@ -18,11 +18,11 @@ function App() {
       <Card h2="Card 1" h3="This is the first card" />
       <Card h2="Card 3" h3="This is the third card" />
 
-      <div className="fourthExample">
+      {/* <div className="fourthExample">
         <button onClick={fourthExample}>
           using a separate function expression
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }
