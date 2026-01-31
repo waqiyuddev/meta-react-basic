@@ -6,7 +6,7 @@ import Promo from './assets/Components/Promo'
 import Card from './assets/Components/Card'
 import './App.css'
 import GuessNumber from './assets/Components/GuessNumber'
-
+import Cat from './assets/Components/ParChiGra/Cat'
 
 function App() {
   const fourthExample = () => console.log('fourth example');
@@ -25,7 +25,9 @@ function App() {
         </button>
       </div> */}
 
-      <GuessNumber />
+      {/* <GuessNumber /> */}
+
+      <Cat />
     </div>
   );
 }
