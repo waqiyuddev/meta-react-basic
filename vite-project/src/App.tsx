@@ -1,16 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Heading from './assets/Components/Heading'
-import Promo from './assets/Components/Promo'
-import Card from './assets/Components/Card'
 import './App.css'
-import GuessNumber from './assets/Components/GuessNumber'
+// import Heading from './assets/Components/Heading'
+// import Promo from './assets/Components/Promo'
+// import Card from './assets/Components/Card'
+// import GuessNumber from './assets/Components/GuessNumber'
 import Cat from './assets/Components/ParChiGra/Cat'
 
 function App() {
-  const fourthExample = () => console.log('fourth example');
-
   return (
     <div className="App">
       {/* <Heading firstName="Any name other than Bob" />

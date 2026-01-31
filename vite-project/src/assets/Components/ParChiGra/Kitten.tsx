@@ -1,4 +1,3 @@
-import React from "react";
 import Bowl from "./Bowl";
 
 type KittenProps = {

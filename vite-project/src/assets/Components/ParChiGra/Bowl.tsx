@@ -1,5 +1,3 @@
-import React from "react";
-
 type BowlProps = {
     foodType: string;
     bowlStatus: string;
