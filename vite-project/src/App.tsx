@@ -8,14 +8,21 @@ import './App.css'
 
 
 function App() {
+  const fourthExample = () => console.log('fourth example');
+
   return (
     <div className="App">
       <Heading firstName="Any name other than Bob" />
       <Heading firstName="Jack" />
       <Promo heading="Welcome to our store" promoSubHeading="Buy 1 get 1 free" />
       <Card h2="Card 1" h3="This is the first card" />
-      <Card h2="Card 2" h3="This is the second card" />
       <Card h2="Card 3" h3="This is the third card" />
+
+      <div className="fourthExample">
+        <button onClick={fourthExample}>
+          using a separate function expression
+        </button>
+      </div>
     </div>
   );
 }
