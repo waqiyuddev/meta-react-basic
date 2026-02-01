@@ -13,7 +13,7 @@ import Card from './assets/Components/Card'
 // import AboutLittleLemon from './assets/Pages/AboutLittleLemon';
 // import Contact from './assets/Pages/Contac';
 import Message from './assets/ConditionalRender/Message';
-
+import ImageDisplay from './assets/AssetReact/ImageDisplay';
 
 
 function App() {
@@ -30,6 +30,8 @@ function App() {
 
       {/* <Message isLoggedIn={true} /> */}
       <Message isLoggedIn={false} />
+
+      <ImageDisplay />
 
     </div>
 
