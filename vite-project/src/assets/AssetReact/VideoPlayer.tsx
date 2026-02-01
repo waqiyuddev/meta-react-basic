@@ -12,7 +12,7 @@ function VideoPlayer() {
             playing={false}
             loop={true}
             muted={true}
-            controls={true}
+        // controls={true}
         />
     );
 }
