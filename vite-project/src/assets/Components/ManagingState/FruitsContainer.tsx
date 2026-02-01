@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Fruits from "./Fruit";
 import FruitsCounter from "./FruitsCounter";
-import type { Fruit } from "./Fruit";
+import { Fruit } from "./Fruit";
 
 function FruitsContainer() {
     const [fruits] = useState<Fruit[]>([
