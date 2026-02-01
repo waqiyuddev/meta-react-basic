@@ -14,7 +14,7 @@ import Card from './assets/Components/Card'
 // import Contact from './assets/Pages/Contac';
 import Message from './assets/ConditionalRender/Message';
 import ImageDisplay from './assets/AssetReact/ImageDisplay';
-
+import VideoPlayer from './assets/AssetReact/VideoPlayer';
 
 function App() {
   return (
@@ -32,6 +32,7 @@ function App() {
       <Message isLoggedIn={false} />
 
       <ImageDisplay />
+      <VideoPlayer />
 
     </div>
 
