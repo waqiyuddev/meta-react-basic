@@ -15,6 +15,7 @@ import Card from './assets/Components/Card'
 import Message from './assets/ConditionalRender/Message';
 import ImageDisplay from './assets/AssetReact/ImageDisplay';
 import VideoPlayer from './assets/AssetReact/VideoPlayer';
+import BirdSounds from './assets/AssetReact/BirdSounds';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
 
       <ImageDisplay />
       <VideoPlayer />
+      <BirdSounds />
 
     </div>
 
