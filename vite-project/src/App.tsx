@@ -1,4 +1,5 @@
 import './App.css'
+import { Routes, Route } from "react-router";
 // import Main from './assets/Components/PropHandling/Main';
 // import Heading from './assets/Components/Heading'
 // import Promo from './assets/Components/Promo'
@@ -6,7 +7,13 @@ import './App.css'
 // import GuessNumber from './assets/Components/GuessNumber'
 // import Cat from './assets/Components/ParChiGra/Cat'
 // import SimpleForm from './assets/Components/SimpleForm'
-import FruitsContainer from './assets/Components/ManagingState/FruitsContainer';
+// import FruitsContainer from './assets/Components/ManagingState/FruitsContainer';
+import AppBar from './assets/Components/AppBar/AppBar';
+import Homepage from './assets/Pages/Homepage';
+import AboutLittleLemon from './assets/Pages/AboutLittleLemon';
+import Contact from './assets/Pages/Contac';
+
+
 
 function App() {
   return (
@@ -34,7 +41,15 @@ function App() {
       /> */}
 
       {/*NOTE: Managing state in React */}
-      <FruitsContainer />;
+      {/* <FruitsContainer />; */}
+
+      <AppBar />
+
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<AboutLittleLemon />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
