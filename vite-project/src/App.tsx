@@ -4,6 +4,7 @@ import './App.css'
 // import Card from './assets/Components/Card'
 // import GuessNumber from './assets/Components/GuessNumber'
 import Cat from './assets/Components/ParChiGra/Cat'
+import SimpleForm from './assets/Components/SimpleForm'
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
       {/* <GuessNumber /> */}
 
       <Cat />
+
+      <SimpleForm />
     </div>
   );
 }
