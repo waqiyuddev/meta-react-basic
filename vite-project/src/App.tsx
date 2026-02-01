@@ -1,11 +1,12 @@
 import './App.css'
-import Main from './assets/Components/PropHandling/Main';
+// import Main from './assets/Components/PropHandling/Main';
 // import Heading from './assets/Components/Heading'
 // import Promo from './assets/Components/Promo'
 // import Card from './assets/Components/Card'
 // import GuessNumber from './assets/Components/GuessNumber'
 // import Cat from './assets/Components/ParChiGra/Cat'
 // import SimpleForm from './assets/Components/SimpleForm'
+import FruitsContainer from './assets/Components/ManagingState/FruitsContainer';
 
 function App() {
   return (
@@ -28,9 +29,12 @@ function App() {
 
       {/* <SimpleForm /> */}
 
-      <Main
+      {/* <Main
         msg="I passed through the Header and the Wrapper and I reached the Button component"
-      />
+      /> */}
+
+      {/*NOTE: Managing state in React */}
+      <FruitsContainer />;
     </div>
   );
 }
