@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 // import Promo from './assets/Components/Promo'
 // import Card from './assets/Components/Card'
 // import GuessNumber from './assets/Components/GuessNumber'
-// import Cat from './assets/Components/ParChiGra/Cat'
+import Cat from './assets/Components/ParChiGra/Cat'
 // import SimpleForm from './assets/Components/SimpleForm'
 // import FruitsContainer from './assets/Components/ManagingState/FruitsContainer';
 import AppBar from './assets/Components/AppBar/AppBar';
@@ -32,7 +32,7 @@ function App() {
 
       {/* <GuessNumber /> */}
 
-      {/* <Cat /> */}
+      <Cat />
 
       {/* <SimpleForm /> */}
 
