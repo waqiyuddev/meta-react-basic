@@ -16,11 +16,14 @@ import Message from './assets/ConditionalRender/Message';
 import ImageDisplay from './assets/AssetReact/ImageDisplay';
 import VideoPlayer from './assets/AssetReact/VideoPlayer';
 import BirdSounds from './assets/AssetReact/BirdSounds';
+import Calculator from './assets/Calculator/Calculator';
 
 function App() {
   return (
     <div className="App">
       <h1>App is working!</h1>
+
+      <Calculator />
 
       {/* <Heading firstName="Any name other than Bob" />
       <Heading firstName="Jack" />
