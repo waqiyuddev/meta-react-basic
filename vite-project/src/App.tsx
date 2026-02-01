@@ -23,9 +23,9 @@ function App() {
 
       {/* <GuessNumber /> */}
 
-      <Cat />
+      {/* <Cat /> */}
 
-      <SimpleForm />
+      {/* <SimpleForm /> */}
     </div>
   );
 }
