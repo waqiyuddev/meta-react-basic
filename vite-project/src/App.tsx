@@ -1,10 +1,11 @@
 import './App.css'
+import Main from './assets/Components/PropHandling/Main';
 // import Heading from './assets/Components/Heading'
 // import Promo from './assets/Components/Promo'
 // import Card from './assets/Components/Card'
 // import GuessNumber from './assets/Components/GuessNumber'
-import Cat from './assets/Components/ParChiGra/Cat'
-import SimpleForm from './assets/Components/SimpleForm'
+// import Cat from './assets/Components/ParChiGra/Cat'
+// import SimpleForm from './assets/Components/SimpleForm'
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
       {/* <Cat /> */}
 
       {/* <SimpleForm /> */}
+
+      <Main
+        msg="I passed through the Header and the Wrapper and I reached the Button component"
+      />
     </div>
   );
 }
